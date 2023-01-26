@@ -55,7 +55,7 @@ namespace mocopi2Neos
 
             // Create osc receiver
             // This is the port we are going to listen on 
-            int port = 9001;
+            int port = 39539;
 
             // Create the receiver
             receiver = new OscReceiver(port);
